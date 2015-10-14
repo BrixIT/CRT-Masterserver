@@ -1,0 +1,7 @@
+brixit_crt_master_homepage:
+    path:     /
+    defaults: { _controller: BrixitCrtMasterBundle:Default:index }
+
+brixit_crt_master_api_register:
+    path:     /api/register
+    defaults: {_controller: BrixitCrtMasterBundle:Api:register}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% stylesheets filter='less,cssrewrite,?yui_css'
+    '@BrixitCrtMasterBundle/Resources/public/less/style.less' %}
+    <link href="{{ asset_url }}" type="text/css" rel="stylesheet"/>
+    {% endstylesheets %}
+</head>
+<body>
+<header>
+    CRT Masterserver
+</header>
+{% block main %}
+
+{% endblock %}
+</body>
+</html>
